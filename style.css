@@ -1,0 +1,672 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.f-logo {
+    width: 100px;
+}
+
+.navbar p {
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: rgba(226, 220, 220, 0.889);
+}
+
+
+
+
+
+.br {
+    border: 4px solid red;
+}
+
+.bb {
+    border: 4px solid rgb(17, 0, 255);
+}
+
+
+
+/*   first --1 */
+
+.first-card {
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.circal {
+    /* border: 4px solid green; */
+    width: 180%;
+    height: 130%;
+    border-radius: 50%;
+    top: -468px;
+    left: -600px;
+    position: absolute;
+    background-image: url('i-one/demo-pizza-parlor-slider-10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.i-box-1 {
+    z-index: 11111;
+    position: absolute;
+    top: 16px;
+    left: 26%;
+    width: 50%;
+}
+
+.i-box-2 {
+    z-index: 111111;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    width: 61%;
+}
+
+.ani-box {
+    z-index: 1;
+    position: absolute;
+    bottom: -0%;
+    left: 20%;
+    width: 60%;
+    height: 50%;
+}
+
+.rr-pizza {
+    animation-name: round;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    /* transition: 20s linear; */
+}
+
+@keyframes round {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        /* transform: rotate(0deg); */
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.offer {
+    /* border: 4px solid blue; */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 170px;
+    top: 27%;
+    z-index: 111;
+    animation-name: round;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.off-ttx {
+    position: absolute;
+    right: 218px;
+    top: 35.6%;
+    z-index: 111;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.offer-2 {
+    /* border: 4px solid blue; */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 140px;
+    top: 39%;
+    z-index: 11;
+    rotate: 14deg;
+}
+
+
+
+.first-ending {
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('i-one/demo-pizza-parlor-slider-09.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.order {
+    width: 180px;
+    height: 180px;
+    /* border: 4px solid green; */
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+    z-index: 1111;
+    left: 45%;
+    bottom: 15px;
+}
+
+.order-box {
+    width: 220px;
+    height: 220px;
+    /* border: 4px solid green; */
+    border-radius: 50%;
+    position: absolute;
+    background: rgba(241, 142, 13, 0.794);
+    left: 659px;
+    bottom: 0px;
+}
+
+.order h1 {
+    font-size: 37px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: system-ui;
+}
+
+
+/*     con--2    */
+
+.sec-ttx {
+    font-size: 50px;
+}
+
+.icon-sec {
+    border-right: 1px solid rgba(0, 0, 0, 0.605);
+    position: relative;
+}
+
+.icon-sec img {
+    width: 65px;
+}
+
+.icon-sec h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon-sec span {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.689);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 50%;
+    right: 50px;
+    top: -23px;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.icon-sec:hover span {
+    scale: 1.2;
+    opacity: 1;
+    /* display: flex; */
+    transition: .2s ease-in-out;
+    transform: translateY(-5px);
+}
+
+.icon-sec:hover h1 {
+    transform: translateY(-5px);
+    transition: .2s ease-in-out;
+    border-bottom: 3px solid black;
+    font-family: system-ui;
+}
+
+.icon-sec:hover img {
+    transform: translateY(-5px);
+    transition: .2s ease-in-out;
+}
+
+.chilli {
+    position: absolute;
+    width: 300px;
+    left: -40px;
+    z-index: -1;
+
+}
+
+
+/*    con--3    */
+
+.tametto {
+    position: absolute;
+    top: 0;
+    right: -90px;
+    width: 300px;
+}
+
+.third-left {
+    height: 80vh;
+}
+
+
+.third-right h4 {
+    font-family: system-ui;
+    font-size: 27px;
+}
+
+.third-right h1 {
+    font-family: system-ui;
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+.third-right p {
+    font-family: system-ui;
+    font-size: 18px;
+}
+
+
+/* From Uiverse.io by ernestnash */
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    /* border: 3px solid rgb(252, 70, 100); */
+    cursor: pointer;
+    position: relative;
+    background-color: black;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+    transition: all .6s;
+    border: none;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 61, 61);
+    transform: translateX(-100%);
+    transition: all .6s;
+    z-index: -1;
+    border: none;
+}
+
+.btn:hover::before {
+    transform: translateX(0);
+    
+}
+
+/* From Uiverse.io by doniaskima */ 
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-53 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn-53:disabled {
+  cursor: default;
+}
+
+.btn-53:-moz-focusring {
+  outline: auto;
+}
+
+.btn-53 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-53 [hidden] {
+  display: none;
+}
+
+.btn-53 {
+  border: 1px solid;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-53 .original {
+  background: #fff;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-53:hover .original {
+  transform: translateY(100%);
+}
+
+.btn-53 .letters {
+  display: inline-flex;
+}
+
+.btn-53 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+}
+
+.btn-53 span:nth-child(2n) {
+  transform: translateY(15px);
+}
+
+.btn-53:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-53:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.btn-53:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.btn-53:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.btn-53:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.btn-53:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+
+
+.btcc {
+    font-size: 25px;
+    padding: 0px 20px;
+    border-radius: 6px;
+    background: none;
+    border: none;
+    font-weight: bolder;
+
+}
+
+
+.i-ssp {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.133) 1px 5px 14px;
+    font-size: 36px;
+}
+.i-box:hover .i-ssp {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: .3s ease-in-out;
+}
+.i-ttx h1 {
+    font-size: 27px;
+}
+.i-ttx p {
+    font-size: 18px;
+}
+
+/*   con--4 */
+
+.four-main-con {
+   height: 100vh;
+}
+
+.four-one span {
+    width: 180px;
+    height: 100%;
+    border-right: 2px solid red;
+}
+.four-one h1 {
+    font-size: 50px;
+}
+.four-one p {
+    font-size: 19px;
+    color: red;
+}
+
+.ff-icon span {
+    padding: 2px 0px;
+    font-size: 14px;
+}
+
+.ff-icon h1 {
+    font-size: 15px;
+}
+.ff-icon h2 {
+    font-size: 19px;
+    font-weight: 700;
+}
+.ff-icon h2 span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.four-img {
+    width: 100%;
+    height: 250px;
+}
+.four-card {
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+}
+.four-card:hover {
+    background-color: white;
+    margin-top: -10px;
+    transition: .3s ease-in-out;
+}
+
+
+.four-end {
+    height: 140px;
+}
+
+.four-end h1 {
+    font-size: 170px;
+    font-weight: 900;
+    letter-spacing: 20px;
+    bottom: -65px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.17);
+} 
+
+
+/*    con--5  */
+
+
+.five-img {
+    width: 105px;
+    height: 105px;
+    /* border: 4px solid green; */
+
+}
+
+.five-card  {
+    transition: .3s ease-in-out;
+}
+.five-card:hover {
+    transform: scale(1.05);
+    transition: .3s ease-in-out;
+}
+.five-card h1 {
+    font-size: 18px;
+}
+.five-card h2 {
+    font-size: 21px;
+}
+.five-card p {
+    font-size: 17px;
+}
+
+.must {
+    padding: 4px 13px;
+    font-size: 13px;
+    box-shadow: 0px 1px 1px black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+
+
+
+
+/*   con--6   */
+
+.sixttx-one {
+    rotate: 269.4deg;
+    color: red;
+    font-weight: bold;
+}
+.sixttx-two {
+    font-size: 18px;
+}
+.isix {
+    width: 300px;
+}
+
+
+
+.sev-ibox {
+    width: 100px;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(84, 68, 68);
+
+}
+.sev-ibox i {
+    font-size: 40px;
+}
+
+.sev-ttx h4 {
+   font-size: 19px;
+}
+
+.sev-card {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.122);
+    border-top: 1px solid rgba(0, 0, 0, 0.179);
+}
+.sev-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.155) 0px 3px 8px;
+    transition: .4s ease-in-out;
+    background-color: white;
+}
+
+
+
+.eight-ttx p {
+    font-weight: 600;
+    font-size: 16px;
+    color: red;
+}
+.eight-ttx h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+.eight-ttx button {
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 9px;
+    border: none;
+}
+.eight-ttx button:hover {
+    transform: translateY(-3px);
+    transition: .4s ease-in-out;
+}
+
+.eg-card {
+    height: 250px;
+}
+
+
+
+.ff-card h1 {
+    font-size: 18px;
+    color: white;
+}
+.ff-card p {
+    font-size: 15px;
+    color: rgb(189, 187, 187);
+}
+
+.last-ff ul li {
+    list-style: none;
+}
+.last-ff ul li a {
+    text-decoration: none;
+    color: white;
+}
+.last-ff span {
+    color: white;
+}
+
+.end-img {
+    position: absolute;
+    top: 68px;
+    z-index: -1;
+}
